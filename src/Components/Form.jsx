@@ -51,8 +51,6 @@ const FormComp = () => {
             headers: { "Content-Type": "application/json" },
           }
         );
-        console.log(response.data);
-        console.log(JSON.stringify(response));
       } catch (error) {
         console.log(error);
       }
